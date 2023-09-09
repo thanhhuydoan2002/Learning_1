@@ -6,7 +6,11 @@ void main(List<String> arguments) {
 
   dart_application_1.basicSyntax();
 
-  var n = 99;
+  var n = 15;
 
   dart_application_1.conditionalExpression(n);
+
+  final list = ['a', 'b', 'c', 'd', 'e'];
+
+  dart_application_1.loop(list);
 }
